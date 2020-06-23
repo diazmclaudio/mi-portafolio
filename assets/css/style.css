@@ -9,6 +9,9 @@ h1 {
 h2 {
     font-family: "Oswald", sans-serif;
 }
+h3 {
+    font-family: "Oswald", sans-serif;
+}
 
 header {
     text-align: center;
@@ -21,7 +24,7 @@ header {
 .underlined_text {
     border-top: solid 2px #ffffff;
     display: inline;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
 }
 
 .bg-purple {

@@ -12,7 +12,10 @@
             crossorigin="anonymous"
         />
         <!-- Google Fonts OpenSans Regular (400) OpenSans SemiBold (600) Oswald bold (700) -->
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@700&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@700&display=swap"
+            rel="stylesheet"
+        />
         <!-- CSS Propio -->
         <link rel="stylesheet" href="assets/css/style.css" />
     </head>
@@ -61,7 +64,7 @@
         </nav>
         <!-- Hero BG -->
         <header id="inicio" class="text-white mt-5 pt-5">
-            <div class="container align-items-baseline">
+            <div class="container">
                 <h1 class="display-4">Yo soy</h1>
                 <h1 class="display-4 underlined_text font-weight-bold mt-5">
                     MAGDALENA
@@ -69,7 +72,7 @@
             </div>
         </header>
         <!-- sobre mi -->
-        <section id="about" class="container mt-5">
+        <section id="about" class="container mt-1 py-5">
             <h2 class="display-5 font-weight-bold">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                 mattis ante nulla. Donec in neque consectetur, ultrices justo
@@ -115,16 +118,30 @@
         </section>
         <!-- mi experiencia -->
         <section id="experiencia" class="container mt-5">
-            <h1 class="font-weight-bold text-center mt-5">
+            <h1
+                class="font-weight-bold text-center underlined_text_bottom mt-5"
+            >
                 MI EXPERIENCIA
             </h1>
-            <div class="row">
-                <i class="fab fa-empire fa-10x font-purple"></i>
-                <i class="fab fa-medium-m fa-10x font-purple"></i>
+            <div class="row d-flex justify-content-center py-4">
+                <div class="col-md-auto text-center mx-5 px-5">
+                    <i class="fab fa-empire fa-10x font-purple"></i>
+                    <h3>
+                        Stormtrooper
+                    </h3>
+                    <p class="text-secondary">1980 - 2014</p>       
+                </div>
+                <div class="col-md-auto text-center mx-5 px-5">
+                    <i class="fab fa-medium-m fa-10x font-purple"></i>
+                    <h3>
+                        Stormtrooper
+                    </h3>
+                    <p class="text-secondary">2014 - 2018</p> 
+                </div>
             </div>
         </section>
         <!-- mis ultimos trabajos -->
-        <section id="works" class="container-fluid mt-5 bg-purple">
+        <section id="works" class="container-fluid mt-5 p-5 bg-purple">
             <h1 class="font-weight-bold text-center">
                 MIS ÚLTIMOS TRABAJOS
             </h1>
@@ -139,9 +156,10 @@
                             alt="Card image cap"
                         />
                         <div class="card-body">
-                            <h5 class="card-title">Meet&Coffee</h5>
+                            <h5 class="card-title text-dark">Meet&Coffee</h5>
                             <p class="card-text text-secondary">
-                                Felis tincidunt vel risus lacus posuere dignissim habitasse sapien
+                                Felis tincidunt vel risus lacus posuere
+                                dignissim habitasse sapien
                             </p>
                         </div>
                     </div>
@@ -152,9 +170,10 @@
                             alt="Card image cap"
                         />
                         <div class="card-body">
-                            <h5 class="card-title">Iguana Page</h5>
+                            <h5 class="card-title text-dark">Iguana Page</h5>
                             <p class="card-text text-secondary">
-                                Felis tincidunt vel risus lacus posuere dignissim habitasse sapien
+                                Felis tincidunt vel risus lacus posuere
+                                dignissim habitasse sapien
                             </p>
                         </div>
                     </div>
@@ -165,9 +184,10 @@
                             alt="Card image cap"
                         />
                         <div class="card-body">
-                            <h5 class="card-title">Suricata</h5>
+                            <h5 class="card-title text-dark">Suricata</h5>
                             <p class="card-text text-secondary">
-                                Felis tincidunt vel risus lacus posuere dignissim habitasse sapien
+                                Felis tincidunt vel risus lacus posuere
+                                dignissim habitasse sapien
                             </p>
                         </div>
                     </div>
@@ -181,9 +201,10 @@
                             alt="Card image cap"
                         />
                         <div class="card-body">
-                            <h5 class="card-title">Cuppon</h5>
+                            <h5 class="card-title text-dark">Cuppon</h5>
                             <p class="card-text text-secondary">
-                                Felis tincidunt vel risus lacus posuere dignissim habitasse sapien
+                                Felis tincidunt vel risus lacus posuere
+                                dignissim habitasse sapien
                             </p>
                         </div>
                     </div>
@@ -194,9 +215,10 @@
                             alt="Card image cap"
                         />
                         <div class="card-body">
-                            <h5 class="card-title">Ricomida</h5>
+                            <h5 class="card-title text-dark">Ricomida</h5>
                             <p class="card-text text-secondary">
-                                Felis tincidunt vel risus lacus posuere dignissim habitasse sapien
+                                Felis tincidunt vel risus lacus posuere
+                                dignissim habitasse sapien
                             </p>
                         </div>
                     </div>
@@ -207,9 +229,10 @@
                             alt="Card image cap"
                         />
                         <div class="card-body">
-                            <h5 class="card-title">DMark</h5>
+                            <h5 class="card-title text-dark">DMark</h5>
                             <p class="card-text text-secondary">
-                                Felis tincidunt vel risus lacus posuere dignissim habitasse sapien
+                                Felis tincidunt vel risus lacus posuere
+                                dignissim habitasse sapien
                             </p>
                         </div>
                     </div>
@@ -269,14 +292,20 @@
             </div>
         </section>
         <!-- footer -->
-        <footer class="container-fluid mt-5 bg-purple">
-            <h2 class="display-5">
-                MAGDALENA
-            </h2>
-            <i class="fab fa-github-square"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-twitter-square"></i>
-            <i class="fab fa-facebook-square"></i>
+        <footer class="container-fluid mt-5 p-5 bg-purple">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <h2 class="display-5">
+                        MAGDALENA
+                    </h2>
+                </div>
+                <div class="col-md-6 text-left">
+                    <i class="fab fa-github-square fa-3x px-3"></i>
+                    <i class="fab fa-linkedin fa-3x px-3"></i>
+                    <i class="fab fa-twitter-square fa-3x px-3"></i>
+                    <i class="fab fa-facebook-square fa-3x px-3"></i>
+                </div>
+            </div>
         </footer>
         <!-- FontAwesome -->
         <script
