@@ -1,0 +1,17 @@
+body {
+     font-family: "Cabin", sans-serif;
+ }
+ 
+header{
+     text-align: center;
+     background-image: url(../img/bg_hero.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center ;
+     padding-bottom: 30rem;
+}
+.underlined_text {
+     border-top: solid 2px #ffffff;
+     display: inline;
+     padding-bottom: 8px;
+ }
