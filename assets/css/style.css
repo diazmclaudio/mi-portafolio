@@ -1,17 +1,34 @@
 body {
-     font-family: "Cabin", sans-serif;
- }
- 
-header{
-     text-align: center;
-     background-image: url(../img/bg_hero.png);
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center ;
-     padding-bottom: 30rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+}
+
+h2 {
+    font-family: "Oswald", sans-serif;
+}
+
+header {
+    text-align: center;
+    background-image: url(../img/bg_hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 30rem;
 }
 .underlined_text {
-     border-top: solid 2px #ffffff;
-     display: inline;
-     padding-bottom: 8px;
- }
+    border-top: solid 2px #ffffff;
+    display: inline;
+    padding-bottom: 8px;
+}
+
+.bg-purple {
+    background-color: #660066;
+    color: #ffffff;
+}
+
+.font-purple {
+    color: #660066;
+}
